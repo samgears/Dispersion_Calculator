@@ -163,12 +163,12 @@ sy_base = 4
 # wavelength w k sweep parameters
 start_wavelength = 1.8 * u
 end_wavelength = 2.2 * u
-w_k_sweep_steps = 50
+w_k_sweep_steps = 3
 
 # sweeping waveguide width, in um
 wg_initial_width = 0.7
 wg_final_width = 2
-wg_width_sweep_steps = 5
+wg_width_sweep_steps = 3
 # make a dictionary of everything
 metadata = {
     'mode':str(mode),
