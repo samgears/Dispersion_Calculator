@@ -189,7 +189,7 @@ write_to_file = True
 if (write_to_file):
     # put this into a huge csv file
     folder_name = 'dispersion_sweeps/single_waveguide/headless_server'+str(mode)+'_resolution_'+str(resolution)+'_sybase'+str(sy_base)+'_wg_initial_width'+str(wg_initial_width)+'_wg_final_width'+str(wg_final_width)+'_w_k_sweep_steps'+str(w_k_sweep_steps)
-    os.mkdir(folder_name)
+    os.makedirs(folder_name)
 
     # put everything in a header csv file
     file_header = folder_name+'/header.csv'
